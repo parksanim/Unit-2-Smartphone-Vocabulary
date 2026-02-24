@@ -221,16 +221,35 @@ body {
 </div>
 <script>
 const cards = [
-  { term: "Plug in", definition: "To connect a piece of electrical equipment to a power source." },
-  { term: "Run out of", definition: "To use all of something so that there is none left." },
-  { term: "Go off", definition: "To make a loud noise or a ringing sound (like an alarm)." },
-  { term: "Scroll through", definition: "To move through a lot of text or many images on a screen." },
-  { term: "Top up", definition: "To add more money or data to a mobile phone account." },
-  { "term": "Back up", "definition": "BACK UP (verb) to make a copy of data/files. BACKUP (noun) a copy of data/files." },
-  { "term": "Pop up", "definition": "POP UP (verb) to appear suddenly. POP-UP (noun) a window or ad that appears suddenly." },
-  { "term": "Set up", "definition": "SET UP (verb) to arrange or install. SETUP (noun) arrangement or configuration." },
-  { "term": "Log in", "definition": "LOG IN (verb) to sign in. LOGIN (noun) credentials or sign-in process." },
-  { "term": "Feed back", "definition": "FEED BACK (verb) to return information (rare). FEEDBACK (noun) comments or response." }
+  { term: "Ghosting", definition: "When a fast-moving character leaves a blurry trail on a slow frame rate, or temporary image retention." },
+  { term: "Burn-in", definition: "When an OLED screen permanently shows a logo or navigation bar after thousands of hours of a static display." },
+  { term: "Tethering", definition: "Another word for the hotspot feature, which sometimes involves using a cable to share a phone's data." },
+  { term: "Form factor", definition: "The physical size, shape, and style of a piece of hardware." },
+  { term: "Bricked", definition: "When a device becomes unusable after a software error." },
+  { term: "Bloatware", definition: "Pre-installed and often unwanted apps that take up space." },
+  { term: "Sandbox", definition: "A secure way of separating running programs or apps to prevent malware or viruses from spreading." },
+  { term: "Throttle", definition: "To intentionally slow down the speed of a processor or internet connection." },
+  { term: "Cache", definition: "A storage area for temporary data to help apps load faster." },
+  { term: "Interface", definition: "The visual layout and controls that allow a person to interact with a device (like a smartphone)." },
+  { term: "Widget", definition: "A small, interactive tool on the home screen that provides quick information." },
+  { term: "Hotspot", definition: "A location or device that can provide Wi-Fi access." },
+  { term: "Carrier", definition: "The service provider that gives you cellular service (Verizon, SK Telecom, Viettel, China Mobile, Docomo, etc)." },
+  { term: "Toggle", definition: "A digital switch that can be turned on or off." },
+  { term: "Ecosystem", definition: "A group of devices and software from one company that work well together." },
+  { term: "Band", definition: "A radio frequency range that is used for communications (n1, n78, mmWave, etc)." },
+  { term: "Gesture", definition: "A specific finger movement (like a swipe or a pinch) used to control the screen." },
+  { term: "Peripheral", definition: "Any external device that connects to a primary device (like USB cables, earbuds, smartwatches)." },
+  { term: "Ping", definition: "The reaction time of your connection; how fast a response after a request (excessive ping in gaming causes lag)." },
+  { term: "Charge", definition: "To connect a device to electricity to restore battery power." },
+  { term: "Scroll", definition: "To move text or images up, down, or across a screen using a mouse wheel or slider bar." },
+  { term: "Sync", definition: "To ensure two or more devices have the same updated information." },
+  { term: "Notification", definition: "A visual or audible alert from an application." },
+  { term: "Browser", definition: "A software program used to access the internet (Chrome, Safari, Firefox, Brave)." },
+  { term: "Resolution", definition: "The number of pixels on the display; determines image clarity." },
+  { term: "Update", definition: "A new version of software that fixes bugs or improves features." },
+  { term: "Malware", definition: "Malicious software designed to damage or disable a device." },
+  { term: "Refurbished", definition: "A used device that has been repaired and/or tested to work like new." },
+  { term: "Screenshot", definition: "A digital capture of the screen." }
 ];
 let current = 0;
 let flipped = false;
